@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body { background-image: url(../img/background.jpg);
+}
+
+main {
+	width: 80%;
+    height: 700px;
+    background-color: rgb( 255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: rgb(207, 225, 229);
+	padding-top: 1%;
+}
+
+#logo {
+    margin-top: 2px;
+	float: left;
+	margin-left: 30px;
+
+	
+}
+
+#botones li {
+	display: inline;
+}
+
+#botones li a {
+    font-family: Raleway;
+    font-weight: 700 ;
+    font-size: 1em;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    margin-right: 30px;
+    margin-top: 42px;
+    color: rgb(48, 48, 47);
+
+}
+#botones li a:hover {
+background-color: white;
+margin-top: -2;
+padding-bottom: 12px;
+}
+
+
+section {
+    width: 100%;
+    height: 543px;
+    background-color: white;
+}
+
+.fondoindex {
+    width: 100%;
+    height: 543px;
+    background-image: url(../img/fondoindex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+#textoimagen {
+    width: 31%;
+    margin-left: 53%;
+    margin-top: 18%;
+    color: rgb( 255, 255, 255);
+
+}
+
+
+.fondoproductos {
+    width: 100%;
+    height: 1020px;
+    background-color: rgb(251, 231, 191
+);
+}
+
+.fondorelevamiento {
+    width: 100%;
+    height: 880px;
+    background-color: rgb(255, 255, 255);
+
+}
+#linea {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);}
+
+.linea1
+{width: 100%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+margin-top: 358px;}
+
+
+
+#seccion1 {
+    width: 33%;
+
+    height: 380px;
+    background-color: rgb(251, 231, 191
+);
+    float: left;
+}
+
+#seccion1marca {
+
+    width: 33%;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+#seccion1web {
+       width: 33%;
+    height: 380px;
+    background-color: rgb( 255, 255, 255
+);
+    float: left;
+
+}
+
+#seccion2web {
+        width: 33%;
+    height: 380px;
+    background-color: rgb( 255, 255, 255
+);
+    float: left;
+
+}
+
+#seccion3web {
+           width: 33%;
+    height: 380px;
+    background-color: rgb( 255, 255, 255
+);
+    float: right;
+
+}
+
+#imageneslaweb {
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+#imageneslawebderecha {
+    margin-left: 10px;
+    margin-top: 13px;
+
+
+}
+
+.seccion1cont {
+      width: 33%;
+    height: 350px;
+    background-color: rgb(251, 231, 191);
+    float: left;
+
+
+}
+
+#seccion1index {
+    width: 33%;
+    height: 430px;
+    background-color:rgb( 255, 255, 255
+);
+    float: left;
+    margin-top: 20px;
+}
+
+.titulo {
+    margin-top: 14px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-family: Raleway;
+    font-size: 1.063em;
+    color: rgb( 61, 61, 61);
+}
+
+#titulobotones{
+    margin-top: 14px;
+    margin-left: 26px;
+    font-weight: 400;
+    font-family: Barlow;
+    font-size: 1.063em;
+    color: rgb( 61, 61, 61);
+}
+
+
+.textopersonalidad p {
+    margin-top: 8px;
+    margin-left: 30px;
+    float: left;
+    width: 310px;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.938em;
+    line-height: 1.5;
+    text-decoration: none;
+    color: rgb( 61, 61, 61);
+    }
+
+    #textocontactos p {
+ 
+    margin-left: 30px;
+    float: left;
+    width: 310px;
+    text-align: left;
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 0.938em;
+    color: black;
+    line-height: 1.5;
+    text-decoration: none;
+    color: rgb( 61, 61, 61);
+
+    }
+
+
+#seccion2 {
+    width: 32%;
+    height: 380px;
+    background-color: rgb( 251, 231, 191
+);
+    float: left;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.seccion2 {
+    width: 32%;
+    height: 380px;
+    background-color: rgb( 251, 231, 191
+);
+    float: left;
+    margin-top: 12px;
+    margin-left: 1px;
+
+}
+
+.seccion2marca {
+    width: 32%;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+     margin-left: 1px;
+
+}
+
+.seccion2index{
+    width: 32%;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 20px;
+    margin-left: 1px;
+
+}
+
+
+
+#seccion3 {
+    width: 30%;
+    height: 380px;
+    float: right;
+    background-color: rgb(251, 231, 191);
+
+}
+
+.seccion3 {
+    margin-right: 35px;
+     width: 30%;
+    height: 380px;
+    float: right;
+    background-color: rgb(251, 231, 191);
+}
+
+#seccion3index {
+    margin-right: 35px;
+    width: 30%;
+    height: 450px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#seccion3marca {
+    margin-right: 25px;
+    width: 30%;
+    height: 380px;
+    float: right;
+    background-color:rgb(255, 255, 255);
+
+}
+
+
+   h2 {
+    margin-top: 18px;
+    padding: 1%;
+    padding-left: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(207, 225, 229);
+    font-size: 1.563em;
+    font-family: Raleway;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+
+footer {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(207, 225, 229);
+}
+
+
+.pierelevamiento {
+    width: 100%;
+    height: 40px;
+    background-color:rgb(207, 225, 229);
+
+
+}
+
+#titulogaleria{
+    margin-top: 14px;
+    margin-left: 31px;
+    font-weight: 600;
+    font-family: Raleway;
+    font-size: 1.063em;
+    color: rgb(61, 61, 61);
+}
+
+#secciongaleria {
+    margin-top: 580px;
+    width: 98%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+#secciongaleria img {
+    margin-left: 55px;
+}
+
+#imagenesgaleria {
+    margin-left: 31px;
+    float: left;
+
+}
+
+#imagenbopeeppersonalidad{
+    margin-left: 30px;
+    margin-top: 130px;
+
+
+}
+
+.tituloaspecto {
+    margin-top: 14px;
+    margin-left: 23px;
+    font-weight: 600;
+    font-family: Raleway;
+    font-size: 1.063em;
+    color: rgb(61, 61, 61);
+}
+
+.titulotipomarca {
+     margin-top: 13px;
+    margin-left: 33px;
+    font-weight: 600;
+    font-family: Raleway;
+    font-size: 1.063em;
+    color: rgb(61, 61, 61);
+
+}
+
+#textoaspecto p {
+    margin-top: 8px;
+    margin-left: 22px;
+    width: 295px;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.938em;
+    color: black;
+    line-height: 1.5;
+    color: rgb(61, 61, 61); 
+
+}
+
+#textotipo p {
+    margin-top: 41px;
+    margin-left: 22px;
+    width: 295px;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.938em;
+    color: black;
+    line-height: 1.5;
+    color: rgb(61, 61, 61);
+
+}
+
+#textotipomarca p {
+    margin-top: 8px;
+    margin-left: 33px;
+    width: 310px;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.938em;
+    color: black;
+    line-height: 1.5;
+    color: rgb(61, 61, 61);
+}
+
+#imagenbopeepaspecto {
+    margin-top: 12px;
+    margin-left: 22px;
+
+
+
+}
+
+#seccion3index p {
+    margin-top: 3px;
+    width: 310px;
+    text-align: left;
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 1.063em;
+    color:rgb(61, 61, 61);
+    line-height: 1.5;
+    float: right;
+}
+
+#titulopelicula {
+    margin-top: 34px;
+    font-weight: 600;
+    font-family: Raleway;
+    font-size: 1.063em;
+    color: rgb(61, 61, 61);
+    margin-left: 12px;
+
+}
+
+#titulocolores {
+     margin-top: 13px;
+    font-weight: 600;
+    font-family: Raleway;
+    font-size: 1.063em;
+    color: rgb(61, 61, 61);
+    margin-left: 11px;
+
+}
+
+#textopelicula  {
+    margin-left: 12px:;
+    margin-top: 8px;
+    width: 310px;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.938em;
+    color: rgb(61, 61, 61);
+    line-height: 1.5;
+    float: right;
+
+}
+
+#textocolores p{
+
+    margin-top: 8px;
+    width: 310px;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.938em;
+    color: rgb(61, 61, 61);
+    line-height: 1.5;
+    float: right;
+}
+
+
+#nombredesarrolladora {
+   margin-top: 13px;
+   float: right;
+   margin-right: 35px;
+    font-weight: 400;
+    font-family: Raleway;
+    font-size: 0.813em;
+    color: rgb(0, 0, 0
+);
+
+}
+
+#volver {
+    margin-top: 13px;
+    float: left;
+    margin-left: 30px;
+    font-weight: 400;
+    font-family: Raleway;
+    font-size: 0.813em;
+    color: rgb(0, 0, 0);
+
+}
+
+#volver a {
+   text-decoration: none; 
+   color: rgb(0, 0, 0);
+}
+
+
